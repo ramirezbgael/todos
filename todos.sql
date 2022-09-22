@@ -29,4 +29,6 @@ insert into todos (name, is_completed, deadline) values (
 select * from todos;
 
 -- Obtener solo finalizados
-select is_completed = true from todos;
+select * from todos where is_completed = true;
+
+
